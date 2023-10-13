@@ -1,4 +1,4 @@
-from typing import Annotated
+from typing_extensions import Annotated
 from pydantic import BaseModel, Field
 from sqlalchemy import and_
 from sqlalchemy.orm import Session
